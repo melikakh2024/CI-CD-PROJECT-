@@ -14,7 +14,7 @@ def convert (df):
 
 
 
-    target=["GM","AU"]
+    target=["GM","AU","IR"]
     df=df.filter(sf.col("ID").isin(target))
     return df
 
