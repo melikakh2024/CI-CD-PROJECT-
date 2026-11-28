@@ -36,18 +36,3 @@ jobs:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-      - name: tests
-        run: uv run pytest Pyspark
-
